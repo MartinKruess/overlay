@@ -239,13 +239,17 @@ h2 {
 
 .name {
   background-color: #242628;
-  color: #ededed;
+  color: rgb(247, 156, 201);
   text-align: center;
   padding: 0.5rem 0;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.martin {
+  color: rgb(96, 199, 233);
 }
 
 @keyframes clipMe {
