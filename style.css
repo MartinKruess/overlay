@@ -39,7 +39,6 @@ main {
   padding: 4rem;
   display: flex;
   justify-content: space-between;
-  border: solid blue;
   box-sizing: border-box;
 }
 
@@ -63,7 +62,7 @@ header {
     position: relative;
     top: 2rem;
     left: -2.3rem;
-    rotate: 45deg;
+    transform: rotate(45deg);
     animation: neon1 1.5s ease-in-out infinite alternate;
   }
 }
@@ -261,10 +260,10 @@ h2 {
     clip: rect(0, 0.1rem, 33rem, 0);
   }
   50% {
-    clip: rect(28rem, 33rem, 33rem, 0);
+    clip: rect(20rem, 33rem, 33rem, 0);
   }
   75% {
-    clip: rect(0, 33rem, 33rem, 33rem);
+    clip: rect(0, 33rem, 33rem, 20rem);
   }
 }
 
